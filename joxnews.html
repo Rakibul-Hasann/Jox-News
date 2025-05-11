@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joxnews - Webflow Ecommerce website template</title>
+    <link rel="stylesheet" href="joxnews.css">
+    <link rel="stylesheet" href="joxnews-rpsv.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- BootStrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+</head>
+<body class="body-background">
+
+    <!-- Navbar-top -->
+     <nav class="container">
+
+        <!-- Navbar-top -->
+         <div class="navbar-top d-flex justify-content-between py-4">
+
+            <div class="nav-left d-flex align-items-center">
+                <div class="nav-left-icon me-3">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="nav-left-search">
+                    <input type="text" class="rounded" placeholder="Search Countries">
+                </div>
+            </div>
+
+            <div class="nav-middle d-flex align-items-center">
+                 <img src="./image/main-logo.svg" alt="">
+            </div>
+
+            <div class="nav-right d-flex align-items-center text-end">
+                <div class="d-flex align-items-center pe-4">
+                    <span class="nav-cart pe-2">Cart</span>
+                    <div class="cart-count">0</div>
+                </div>
+                <button class="nav-btn rounded">Subscribe</button>
+            </div>
+
+         </div>  
+     </nav>
+    <!-- Navbar-top -->
+
+
+
+    <!-- Navbar-Bottom -->
+     <section class="container-fluid nav-bottom-container">
+        <div class="container nav-bottom d-flex align-items-center justify-content-center">
+            <div class="nav-bottom-list">
+                <ul class="d-flex justify-content-center align-items-center list-unstyled m-0">
+                    <li>Entertainment</li>
+                    <li>Sports</li>
+                    <li>Politics</li>
+                    <li>Business</li>
+                    <li>Technology</li>
+                    <li>Health</li>
+                </ul>
+            </div>
+        </div>
+     </section>
+    <!-- Navbar-Bottom -->
+
+
+
+    <!-- Hero Section -->
+     <div class="container my-5">
+            <div class="row">
+                <div class="col-lg-8 col-md-6">
+                    <div class="hero-left">
+                        <div class="hero-left-img w-100 overflow-hidden">
+                            <img src="./image/hero-main01.jpg" class="object-fit-cover img-fluid" alt="">
+                        </div>
+
+                        <div class="hero-left-heading mt-4">
+                            <h1>Global Climate Summit Yields Mixed Results on Key Agreements</h1>
+                        </div>
+
+                        <div class="hero-left-bottom d-flex align-items-center mt-4 w-100">
+                            <div class="hero-pera">
+                                <p>The global stock market has reached unprecedented levels, buoyed by optimistic economic forecasts and strong corporate earnings.</p>
+                            </div>
+                            <div class="hero-left-person d-flex align-items-center ms-4">
+                                <div class="hero-left-person-img overflow-hidden">
+                                    <img src="./image/team-thumb-03.jpg" class="img-fluid object-fit-cover" alt="">
+                                </div>
+                                <div class="hero-left-person-title ms-2">
+                                    <h5 class="m-0">Michael Brown</h5>
+                                    <span>December 16, 2024</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="hero-right">
+
+                        <div class="hero-cart d-flex justify-content-center pb-3 mb-3">
+                            <div class="hero-cart-img overflow-hidden">
+                                <img src="./image/hero-thumb-03.jpg" class="img-fluid w-100 object-fit-cover" alt="">
+                            </div>
+                            <div class="hero-cart-title ms-3">
+                                <h5>Blockchain Beyond Cryptocurrency: Revolutionizing Industries</h5>
+                                <div class="hero-cart-time d-flex align-items-center">
+                                    <span class="hero-cart-time-left me-2 pe-2">Business</span>
+                                    <span class="hero-cart-time-right"><i class="fa-regular fa-clock pe-2"></i>8 Min</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hero-cart d-flex justify-content-center pb-3 mb-3">
+                            <div class="hero-cart-img overflow-hidden">
+                                <img src="./image/blockchain-500.jpg" class="img-fluid w-100 object-fit-cover" alt="">
+                            </div>
+                            <div class="hero-cart-title ms-3">
+                                <h5>New Regulations Put Tech Giants Under the Spotlight</h5>
+                                <div class="hero-cart-time d-flex align-items-center">
+                                    <span class="hero-cart-time-left me-2 pe-2">Business</span>
+                                    <span class="hero-cart-time-right"><i class="fa-regular fa-clock pe-2"></i>8 Min</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hero-cart d-flex justify-content-center pb-3 mb-3">
+                            <div class="hero-cart-img overflow-hidden">
+                                <img src="./image/hero-thumb-02.jpg" class="img-fluid w-100 object-fit-cover" alt="">
+                            </div>
+                            <div class="hero-cart-title ms-3">
+                                <h5>Stock Market Hits Record High Amid Economic Optimism</h5>
+                                <div class="hero-cart-time d-flex align-items-center">
+                                    <span class="hero-cart-time-left me-2 pe-2">Business</span>
+                                    <span class="hero-cart-time-right"><i class="fa-regular fa-clock pe-2"></i>8 Min</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hero-cart d-flex justify-content-center pb-3 mb-3">
+                            <div class="hero-cart-img overflow-hidden">
+                                <img src="./image/hero-thumb-04.jpg" class="img-fluid w-100 object-fit-cover" alt="">
+                            </div>
+                            <div class="hero-cart-title ms-3">
+                                <h5>Health Innovations to Watch in 2024</h5>
+                                <div class="hero-cart-time d-flex align-items-center">
+                                    <span class="hero-cart-time-left me-2 pe-2">Business</span>
+                                    <span class="hero-cart-time-right"><i class="fa-regular fa-clock pe-2"></i>8 Min</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+     </div>
+    <!-- Hero Section -->
+
+
+
+    <!-- Latest News -->
+     <section class="container py-5 my-5">
+
+        <!-- Section Title -->
+        <div class="section-title d-flex justify-content-between align-items-center my-3">
+            <h1 class="section-heading">Latest News</h1>
+            <a href="" class="section-link text-black text-decoration-none">VIEW ALL <i class="fa-solid fa-arrow-right section-icon ps-2"></i></a> 
+        </div>
+        <!-- Section Title -->
+
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+
+                <div class="latest-news-left">
+                    <div class="latest-news-left-img overflow-hidden">
+                        <img src="./image/politics-main-01.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="">
+                    </div>
+                    <div class="hero-cart-time d-flex align-items-center mt-3">
+                        <span class="hero-cart-time-left me-2 pe-2">Business</span>
+                        <span class="hero-cart-time-right"><i class="fa-regular fa-clock pe-2"></i>8 Min</span>
+                    </div>
+                    <h2 class="latest-news-left-heading mt-3">Global Summit 2024: Leaders Address Climate, Trade, and Security Challenges</h2>
+                </div>
+
+            </div>
+
+            <div class="col-lg-6 col-md-6">
+                <div class="latesr-news-right">
+                    <div class="row">
+
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-12 commod-card-body">
+                            <div class="common-card">
+                                <div class="common-card-img overflow-hidden">
+                                    <img src="./image/blockchain-500.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="">
+                                </div>
+                                <div class="hero-cart-time d-flex align-items-center mt-3">
+                                    <span class="hero-cart-time-left me-2 pe-2">Business</span>
+                                    <span class="hero-cart-time-right"><i class="fa-regular fa-clock pe-2"></i>8 Min</span>
+                                </div>
+                                <div class="common-card-title mt-2">
+                                    <h5>Blockchain Beyond Cryptocurrency: Revolutionizing Industries</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                            <div class="common-card">
+                                <div class="common-card-img overflow-hidden">
+                                    <img src="./image/editor-thumb-02.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="">
+                                </div>
+                                <div class="hero-cart-time d-flex align-items-center mt-3">
+                                    <span class="hero-cart-time-left me-2 pe-2">Business</span>
+                                    <span class="hero-cart-time-right"><i class="fa-regular fa-clock pe-2"></i>8 Min</span>
+                                </div>
+                                <div class="common-card-title mt-2">
+                                    <h5>Exploring the Future of Space Exploration Beyond Mars</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                            <div class="common-card">
+                                <div class="common-card-img overflow-hidden">
+                                    <img src="./image/editor-thumb-03.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="">
+                                </div>
+                                <div class="hero-cart-time d-flex align-items-center mt-3">
+                                    <span class="hero-cart-time-left me-2 pe-2">Business</span>
+                                    <span class="hero-cart-time-right"><i class="fa-regular fa-clock pe-2"></i>8 Min</span>
+                                </div>
+                                <div class="common-card-title mt-2">
+                                    <h5>The Role of Fitness in Chronic Disease Management</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                            <div class="common-card">
+                                <div class="common-card-img overflow-hidden">
+                                    <img src="./image/editor-thumb-04.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="">
+                                </div>
+                                <div class="hero-cart-time d-flex align-items-center mt-3">
+                                    <span class="hero-cart-time-left me-2 pe-2">Business</span>
+                                    <span class="hero-cart-time-right"><i class="fa-regular fa-clock pe-2"></i>8 Min</span>
+                                </div>
+                                <div class="common-card-title mt-2">
+                                    <h5>The Science of Sleep: How to Rest Better in a 24/7 World</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- Latest News -->
+
+
+
+    <!-- Latest Section -->
+     <section class="container-fluid latest-container">
+        <div class="container latest-container-wrap">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 d-flex align-items-center">
+    
+                    <div class="latest-left">
+                        <div class="latest-heading pb-2">
+                            <h3 class="text-white fw-normal">Blockchain Beyond Cryptocurrency: Revolutionizing Industries</h3>
+                        </div>
+
+                        <p class="text-white my-3 ">Smart city initiatives are leveraging AI, IoT, and data analytics to create sustainable  spaces.</p>
+
+                        <div class="hero-left-person d-flex align-items-center">
+                            <div class="hero-left-person-img overflow-hidden">
+                                <img src="./image/team-thumb-06.jpg" class="img-fluid object-fit-cover" alt="">
+                            </div>
+                            <div class="hero-left-person-title ms-2 text-white">
+                                <h5 class="latext-person-name m-0">By Ethan Collins</h5>
+                                <span class="text-white">Published Jan 11, 2025</span>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+
+                <div class="col-lg-8 col-md-6">
+                    <div class="latest-right">
+                        <img src="./image/blockchain-500.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- Latest Section -->
+
+
+
+    <!-- Editors Pick -->
+     <section class="container py-5">
+
+        <!-- Section Title -->
+        <div class="section-title d-flex justify-content-between align-items-center my-3">
+            <h1 class="section-heading ">Editors Pick</h1>
+        </div>
+        <!-- Section Title -->
+
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+
+                <div class="editor-left mt-4">
+                    <div class="latest-left">
+                        <div class="latest-heading pb-4">
+                            <h3 class="editor-left-heading fw-normal">5G Expansion: What It Means for Consumers and Businesses</h3>
+                        </div>
+    
+                        <p class="editor-left-pera mt-4 mb-0">From faster downloads to smarter cities, 5G is reshaping global connectivity.</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-lg-8 col-md-6">
+                <div class="editors-right overflow-hidden">
+                    <img src="./image/editorspick-main01.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                <div class="common-card">
+                    <div class="common-card-img overflow-hidden">
+                        <img src="./image/sport-thumb-04.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="">
+                    </div>
+                    <div class="hero-cart-time d-flex align-items-center mt-3">
+                        <span class="hero-cart-time-left me-2 pe-2">Business</span>
+                        <span class="hero-cart-time-right"><i class="fa-regular fa-clock pe-2"></i>8 Min</span>
+                    </div>
+                    <div class="common-card-title mt-3">
+                        <h5>Cricket World Cup: Highlights from an Action-Packed Week</h5>
+                    </div> 
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                <div class="common-card">
+                    <div class="common-card-img overflow-hidden">
+                        <img src="./image/editor-thumb-04.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="">
+                    </div>
+                    <div class="hero-cart-time d-flex align-items-center mt-3">
+                        <span class="hero-cart-time-left me-2 pe-2">Business</span>
+                        <span class="hero-cart-time-right"><i class="fa-regular fa-clock pe-2"></i>8 Min</span>
+                    </div>
+                    <div class="common-card-title mt-3">
+                        <h5>The Science of Sleep: How to Rest Better in a 24/7 World</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                <div class="common-card">
+                    <div class="common-card-img overflow-hidden">
+                        <img src="./image/editor-thumb-02.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="">
+                    </div>
+                    <div class="hero-cart-time d-flex align-items-center mt-3">
+                        <span class="hero-cart-time-left me-2 pe-2">Business</span>
+                        <span class="hero-cart-time-right"><i class="fa-regular fa-clock pe-2"></i>8 Min</span>
+                    </div>
+                    <div class="common-card-title mt-3">
+                        <h5>Exploring the Future of Space Exploration Beyond Mars</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- Editors Pick -->
+
+
+
+    <!-- Technology Section -->
+     <section class="container">
+
+        <!-- Section Title -->
+        <div class="section-title d-flex justify-content-between align-items-center my-3">
+            <h1 class="section-heading">Technology</h1>
+            <a href="" class="section-link text-black text-decoration-none">VIEW ALL <i class="fa-solid fa-arrow-right section-icon ps-2"></i></a> 
+        </div>
+        <!-- Section Title -->
+
+        <div class="row ">
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="technology-first-card position-relative overflow-hidden">
+                    <img src="./image/editorspick-main01.jpg" class="technology-first-card-img img-fluid w-100 h-100 object-fit-cover" alt="">
+
+                    <div class="technology-first-card-title position-absolute bottom-0 mx-4 mb-3 pe-5 ">
+                        <div class="hero-cart-time d-flex align-items-center mt-3">
+                            <span class="technology-cart-time-left me-2 pe-2">Business</span>
+                            <span class="technology-cart-time-right"><i class="fa-regular fa-clock pe-2"></i>8 Min</span>
+                        </div>
+                        <div class="common-card-title mt-3 ">
+                            <h5 class="text-white">5G Expansion: What It Means for Consumers and Businesses</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="common-card border-0">
+                    <div class="common-card-img overflow-hidden">
+                        <img src="./image/blockchain-500.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="">
+                    </div>
+                    <div class="hero-cart-time d-flex align-items-center mt-3">
+                        <span class="hero-cart-time-left me-2 pe-2">Business</span>
+                        <span class="hero-cart-time-right"><i class="fa-regular fa-clock pe-2"></i>8 Min</span>
+                    </div>
+                    <div class="common-card-title mt-3">
+                        <h5>Blockchain Beyond Cryptocurrency: Revolutionizing Industries</h5>
+                    </div> 
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="common-card border-0">
+                    <div class="common-card-img overflow-hidden">
+                        <img src="./image/editor-thumb-02.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="">
+                    </div>
+                    <div class="hero-cart-time d-flex align-items-center mt-3">
+                        <span class="hero-cart-time-left me-2 pe-2">Business</span>
+                        <span class="hero-cart-time-right"><i class="fa-regular fa-clock pe-2"></i>8 Min</span>
+                    </div>
+                    <div class="common-card-title mt-3">
+                        <h5>Exploring the Future of Space Exploration Beyond Mars</h5>
+                    </div> 
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- Technology Section -->
+
+
+
+    <!-- Staff Writers -->
+     <section class="container">
+
+        <!-- Section Title -->
+        <div class="section-title d-flex justify-content-between align-items-center my-3">
+            <h1 class="section-heading">Staff Writers</h1>
+            <a href="" class="section-link text-black text-decoration-none">VIEW ALL <i class="fa-solid fa-arrow-right section-icon ps-2"></i></a> 
+        </div>
+        <!-- Section Title -->
+
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="staff-person">
+                    <div class="stuff-person-img overflow-hidden">
+                        <img src="./image/team-main01.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="">
+                    </div>
+                    <h5 class="staff-name m-0 mt-3 mb-1">Ethan Collins</h5>
+                    <span class="staff-title">Senior Writer</span>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="staff-person">
+                    <div class="stuff-person-img overflow-hidden">
+                        <img src="./image/team-main02.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="">
+                    </div>
+                    <h5 class="staff-name m-0 mt-3 mb-1">Sofia Ramirez</h5>
+                    <span class="staff-title">Author</span>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="staff-person">
+                    <div class="stuff-person-img overflow-hidden">
+                        <img src="./image/team-main03.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="">
+                    </div>
+                    <h5 class="staff-name m-0 mt-3 mb-1">Laura Bennett</h5>
+                    <span class="staff-title">Editorialist</span>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="staff-person">
+                    <div class="stuff-person-img overflow-hidden">
+                        <img src="./image/team-main04.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="">
+                    </div>
+                    <h5 class="staff-name m-0 mt-3 mb-1">Michael Brown</h5>
+                    <span class="staff-title">Content Writer</span>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- Staff Writers -->
+
+
+
+    <!-- Articles & Resources Section -->
+     <section class="container py-5 my-5">
+
+        <!-- Section Title -->
+        <div class="section-title d-flex justify-content-between align-items-center my-3">
+            <h1 class="section-heading">Articles & Resources</h1>
+        </div>
+        <!-- Section Title -->
+        
+        <div class="artical-card">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="artical-text">
+                        <div class="hero-cart-time d-flex align-items-center">
+                            <span class="hero-cart-time-left me-2 pe-2">Technology</span>
+                            <span class="hero-cart-time-right">December 16, 2024</span>
+                        </div>
+                        <h4 class="fw-normal mt-3 mb-4"> 5 Cutting-Edge Technologies in Education Transforming How We Learn</h4>
+                        <span class="artical-link">Read More <i class="fa-solid fa-arrow-right artical-icon ps-1"></i></span>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="artical-img overflow-hidden">
+                        <img src="./image/blog-thumb-01.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="artical-card">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="artical-text">
+                        <div class="hero-cart-time d-flex align-items-center">
+                            <span class="hero-cart-time-left me-2 pe-2">Technology</span>
+                            <span class="hero-cart-time-right">December 16, 2024</span>
+                        </div>
+                        <h4 class="fw-normal mt-3 mb-4"> 5 Cutting-Edge Technologies in Education Transforming How We Learn</h4>
+                        <span class="artical-link">Read More <i class="fa-solid fa-arrow-right artical-icon ps-1"></i></span>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="artical-img overflow-hidden">
+                        <img src="./image/blog-thumb-02.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="artical-card">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="artical-text">
+                        <div class="hero-cart-time d-flex align-items-center">
+                            <span class="hero-cart-time-left me-2 pe-2">Technology</span>
+                            <span class="hero-cart-time-right">December 16, 2024</span>
+                        </div>
+                        <h4 class="fw-normal mt-3 mb-4"> 5 Cutting-Edge Technologies in Education Transforming How We Learn</h4>
+                        <span class="artical-link">Read More <i class="fa-solid fa-arrow-right artical-icon ps-1"></i></span>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="artical-img overflow-hidden">
+                        <img src="./image/blog-thumb-03.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- Articles & Resources Section -->
+
+
+
+    <!-- Sing-Up Section -->
+     <section class="container sign-up-container">
+        <div class="row sign-up-body g-5">
+            <div class="col-lg-7 p-0">
+                <div class="sign-up-text">
+                    <h3 class="text-white fw-normal mb-4">Stay informed with our latest news and updates.</h3>
+                    <p class="text-white m-0">Get breaking news and curated stories delivered to your inbox every day. Be the first to know what’s happening around the world</p>  
+                </div>
+            </div>
+            <div class="col-lg-5 sign-up-right d-flex justify-content-center align-items-center">
+                <div class="sign-up-form">
+                    <input type="email" placeholder="Enter your email" class="rounded">
+                    <button class="sign-up-btn d-block text-center mt-3 rounded">Sign Up</button>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- Sing-Up Section -->
+
+
+
+    <!-- Podcast Section -->
+     <section class="container py-5 my-5">
+
+        <!-- Section Title -->
+        <div class="section-title d-flex justify-content-between align-items-center my-3">
+            <h1 class="section-heading">Podcast</h1>
+            <a href="" class="section-link text-black text-decoration-none">VIEW ALL <i class="fa-solid fa-arrow-right section-icon ps-2"></i></a> 
+        </div>
+        <!-- Section Title -->
+
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6 technology-card">
+                <div class="technology-first-card position-relative overflow-hidden">
+                    <img src="./image/podcast-main-01.jpg" class="technology-first-card-img img-fluid w-100 h-100 object-fit-cover" alt="">
+
+                    <div class="technology-first-card-title position-absolute bottom-0 mx-4 mb-3 pe-5">
+                        <div class="hero-cart-time d-flex align-items-center mt-3">
+                            <span class="technology-cart-time-left text-white me-2 pe-2">Business</span>
+                            <span class="technology-cart-time-right text-white"><i class="fa-regular fa-clock pe-2"></i>8 Min</span>
+                        </div>
+                        <div class="common-card-title position-relative mt-3">
+                            <h5 class="text-white">5G Expansion: What It Means for Consumers and Businesses</h5>
+                            <div class="video-btn position-absolute bottom-0">
+                                <i class="fa-solid fa-circle-play video-icon position-absolute"></i> 
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+                <div class="">
+                    <h6 class="podcast-name m-0 mt-3">Sofia Ramirez</h6>
+                    <span class="podcast-title">Author</span>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 technology-card">
+                <div class="technology-first-card position-relative overflow-hidden">
+                    <img src="./image/podcast-main-02.jpg" class="technology-first-card-img img-fluid w-100 h-100 object-fit-cover" alt="">
+
+                    <div class="technology-first-card-title position-absolute bottom-0 mx-4 mb-3 pe-5">
+                        <div class="hero-cart-time d-flex align-items-center mt-3">
+                            <span class="technology-cart-time-left text-white me-2 pe-2">Business</span>
+                            <span class="technology-cart-time-right text-white"><i class="fa-regular fa-clock pe-2"></i>8 Min</span>
+                        </div>
+                        <div class="common-card-title position-relative mt-3">
+                            <h5 class="text-white">5G Expansion: What It Means for Consumers and Businesses</h5>
+                            <div class="video-btn position-absolute bottom-0">
+                                <i class="fa-solid fa-circle-play video-icon position-absolute"></i> 
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+                <div class="">
+                    <h6 class="podcast-name m-0 mt-3">Sofia Ramirez</h6>
+                    <span class="podcast-title">Author</span>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 technology-card">
+                <div class="technology-first-card position-relative overflow-hidden">
+                    <img src="./image/podcast-main-03.jpg" class="technology-first-card-img img-fluid w-100 h-100 object-fit-cover" alt="">
+
+                    <div class="technology-first-card-title position-absolute bottom-0 mx-4 mb-3 pe-5">
+                        <div class="hero-cart-time d-flex align-items-center mt-3">
+                            <span class="technology-cart-time-left text-white me-2 pe-2">Business</span>
+                            <span class="technology-cart-time-right text-white"><i class="fa-regular fa-clock pe-2"></i>8 Min</span>
+                        </div>
+                        <div class="common-card-title position-relative mt-3">
+                            <h5 class="text-white">5G Expansion: What It Means for Consumers and Businesses</h5>
+                            <div class="video-btn position-absolute bottom-0">
+                                <i class="fa-solid fa-circle-play video-icon position-absolute"></i> 
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+                <div class="">
+                    <h6 class="podcast-name m-0 mt-3">Sofia Ramirez</h6>
+                    <span class="podcast-title">Author</span>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- Podcast Section -->
+
+
+
+    <!-- Footer Section -->
+     <footer class="container-fluid footer-container pt-5">
+        <div class="container">
+            <div class="footer-top d-flex justify-content-between align-items-center">
+                <div class="footer-top-icon">
+                    <img src="./image/footer-logo.svg" alt="">
+                </div>
+                <div class="footer-top-list">
+                    <ul class="footer-top-lists text-white list-unstyled d-flex flex-wrap align-items-center m-0">
+                        <li>Entertainment</li>
+                        <li>Sports</li>
+                        <li>Politics</li>
+                        <li>Business</li>
+                        <li>Technology</li>
+                        <li>Health</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-middle py-5 mt-5">
+                <div class="row">
+                    <div class="col-lg-8 col-md-6">
+                        <div class="footer-middle-left">
+                            <div class="footer-heading w-100">
+                                <h4 class="text-white fw-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dfddfh</h4>
+                            </div>
+                            <div class="footer-middle-album mt-5">
+                                <div class="footer-album-img">
+                                    <img src="./image/footer-image-01.jpg" class="img-fluid w-100 object-fit-cover" alt="">
+                                </div>
+                                <div class="footer-album-img">
+                                    <img src="./image/footer-image-01.jpg" class="img-fluid w-100 object-fit-cover" alt="">
+                                </div>
+                                <div class="footer-album-img">
+                                    <img src="./image/footer-image-01.jpg" class="img-fluid w-100 object-fit-cover" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-middle-right d-flex">
+                            <div class="footer-middle-list pe-5">
+                                <h6 class="contact-heading mb-3">Pages</h6>
+                                <ul class="list-unstyled text-white">
+                                    <li>About Us</li>
+                                    <li>News</li>
+                                    <li>Author</li>
+                                    <li>Podcast</li>
+                                    <li>Contact Us</li>
+                                </ul>
+                            </div>
+                            <div class="footer-contact">
+                                <h6 class="contact-heading mb-3">Contact Us</h6>
+                                <div class="footer-mail text-white pb-4">
+                                    <span class="d-block">hello@example.com</span>
+                                    <span class="d-block mt-2">+1(406)555-0120</span>
+                                </div>
+                                <div class="footer-contact-link mt-4">
+                                    <h6 class="contact-heading mb-3">Follow Us</h6>
+                                    <div class="footer-contact-list">
+                                        <ul class="list-unstyled d-flex">
+                                            <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom py-4">
+                <div class="creator d-flex justify-content-between align-items-center">
+                    <div class="creation text-white">
+                        &copy; 2025 Joxnews - Worked by Onmix. Made with <b><i>Rakibul Hasan</i></b>.
+                    </div>
+                    <div class="security">
+                        <ul class="list-unstyled d-flex align-items-center text-white m-0">
+                            <li>Style Guide</li>
+                            <li>Change Log</li>
+                            <li>Licenses</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </footer>
+    <!-- Footer Section -->
+    
+</body>
+</html>

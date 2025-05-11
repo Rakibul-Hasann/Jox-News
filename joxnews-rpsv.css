@@ -1,0 +1,189 @@
+@media screen and (max-width: 1200px){
+    .common-card-title > h5 {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .footer-top{
+        flex-direction: column;
+    }
+    .footer-top-icon{
+        margin-bottom: 2rem;
+    }
+    
+}
+@media screen and (max-width: 992px){
+    .navbar-top{
+        position: relative;
+    }
+    .nav-left{
+        opacity: 0;
+    }
+    .nav-middle{
+        position: absolute;
+        left: 0;
+    }
+    .nav-middle > img{
+        padding-top: 10px;
+    }
+    .hero-left-heading > h1{
+        font-size: 30px;
+    }
+    .hero-left-bottom{
+        flex-direction: column;
+    }
+    .hero-left-person{
+        justify-content: start;
+    }
+    .hero-pera{
+        width: 100%;
+        border: none;
+    }
+    .latest-news-left-img {
+        height: 25rem;
+    }
+    .latest-heading > h3 {
+        font-size: 24px;
+    }
+    .editors-right {
+        height: 22rem;
+    }
+    .technology-first-card {
+        height: 16rem;
+    }
+    .sign-up-right{
+        justify-content: start;
+    }
+    .sign-up-text {
+        width: 100%;
+    }
+    .technology-card{
+        margin-bottom: 2rem;
+    }
+    .footer-middle-album {
+        width: 20rem;
+    }
+    .footer-middle-left{
+        width: 20rem;
+    }
+}
+
+
+
+@media screen and (max-width: 768px){
+    .hero-left{
+        margin-bottom: 3rem;
+    }
+    .latesr-news-right{
+        margin-top: 2rem;
+    }
+    .latest-right{
+        margin-top: 2rem;
+    }
+    .latest-heading > h3 {
+        font-size: 22px;
+    }
+    .editors-right{
+        margin-top: 2rem;
+    }
+    .staff-person{
+        margin-bottom: 2rem;
+    }
+    .artical-img{
+        margin-top: 1rem;
+    }
+    .artical-text > h4{
+        font-size: 20px;
+    }
+    .sign-up-text > h3 {
+        font-size: 30px;
+    }
+    .sign-up-text > p{
+        font-size: 13px;
+    }
+    .footer-middle-album {
+        width: 30rem;
+    }
+    .footer-middle-left{
+        width: 30rem;
+    }
+    .creator{
+        flex-direction: column;
+    }
+}
+
+
+
+@media screen and (max-width: 576px){
+    .nav-middle > img{
+        width: 6rem;
+    }
+    .nav-btn{
+        padding: 5px 15px;
+    }
+    .hero-left-heading > h1{
+        font-size: 25px;
+    }
+    .hero-cart{
+        flex-direction: column;
+    }
+    .hero-cart-title{
+        margin-top: 1rem;
+        width: 100%;
+    }
+    .hero-cart-img {
+        width: 100%;
+    }
+    .latest-news-left-img {
+        height: 100%;
+    }
+    .technology-first-card{
+        margin-bottom: 2rem;
+    }
+    .artical-text > h4{
+        font-size: 18px;
+    }
+    .sign-up-text > h3 {
+        font-size: 23px;
+    }
+    .sign-up-form > input {
+        width: 18rem;
+    }
+    .sign-up-btn {
+        width: 18rem;
+    }
+    .footer-middle-right{
+        margin-top: 2rem;
+    }
+}
+
+
+
+@media screen and (max-width: 530px){
+    .footer-middle-left{
+        width: 20rem;
+    }
+    .footer-middle-album {
+        width: 20rem;
+    }
+}
+@media screen and (max-width: 400px){
+    .footer-contact-list > ul > li {
+        padding: 4px 10px;
+    }
+    .navbar-top{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 360px){
+    .footer-middle-left{
+        width: 15rem;
+    }
+    .footer-middle-album {
+        width: 15rem;
+    }
+}
+
+
+
+
